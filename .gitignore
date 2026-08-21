@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.so
+
+.venv/
+venv/
+env/
+.env
+
+MUJOCO_LOG.TXT
+temp.txt
+*.log
+
+policy/*.onnx
+!policy/.gitkeep
+
+.DS_Store
